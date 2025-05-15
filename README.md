@@ -1,12 +1,15 @@
-<p float="left">
-  <img src="example_outputs/input1.jpg" width="45%" />
-  <img src="example_outputs/output1.jpg" width="45%" />
-</p>
+## 🎬 Pixar Görsel Karşılaştırmaları
 
-<p float="left">
-  <img src="example_outputs/input2.jpg" width="45%" />
-  <img src="example_outputs/output2.jpg" width="45%" />
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="example_outputs/input1.jpg" width="300"/></td>
+    <td align="center"><img src="example_outputs/output1.jpg" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="example_outputs/input2.jpg" width="300"/></td>
+    <td align="center"><img src="example_outputs/output2.jpg" width="300"/></td>
+  </tr>
+</table>
 
 ---
 
