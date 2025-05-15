@@ -1,0 +1,7 @@
+input_images/ 
+styled_frames/ 
+output_videos/ 
+*.ckpt 
+*.safetensors 
+*.png 
+*.mp4 
