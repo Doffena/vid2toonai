@@ -1,3 +1,10 @@
+# 🎨 Vid2ToonAI – Pixar Tarzı Video/Görsel Stilizasyon Sistemi
+
+Vid2ToonAI, gerçek video veya görselleri kare kare işleyerek Pixar tarzı çizgi film estetiğine dönüştüren bir yapay zeka sistemidir.  
+Proje, Stable Diffusion WebUI altyapısı ve özel modeller ile img2img dönüşümü uygulayarak kullanıcıya yüksek kalitede stilize içerikler sunar.
+
+---
+
 ## 🎬 Pixar Görsel Karşılaştırmaları
 
 <table>
@@ -47,12 +54,6 @@
 > Görsel kaliteyi yapısal yönden değerlendirmek için **SSIM (Structural Similarity Index)** metriği kullanılmıştır.  
 > Bu metrik, renk ve doku gibi detaylar yerine yapının, kenarların ve kontrastın korunma düzeyini ölçer.  
 > 0.4008'lik ortalama skor, yoğun stilizasyon uygulanan bu projede yapısal bozulmanın kabul edilebilir düzeyde olduğunu göstermektedir.
-
----
-# 🎨 Vid2ToonAI – Pixar Tarzı Video/Görsel Stilizasyon Sistemi
-
-Vid2ToonAI, gerçek video veya görselleri kare kare işleyerek Pixar tarzı çizgi film estetiğine dönüştüren bir yapay zeka sistemidir.  
-Proje, Stable Diffusion WebUI altyapısı ve özel modeller ile img2img dönüşümü uygulayarak kullanıcıya yüksek kalitede stilize içerikler sunar.
 
 ---
 
