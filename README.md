@@ -85,13 +85,3 @@ Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyaç vardır:
 pip install torch torchvision lpips opencv-python tqdm pandas scikit-image
 
 ---
-
-## ⚙️ Kurulum
-
-Projeyi çalıştırmak için aşağıdaki adımları izleyin:
-
-1. **Projeyi klonlayın:**
-```bash
-git clone https://github.com/Doffena/vid2toonai.git
-cd vid2toonai/AI-Video-Converter
----
