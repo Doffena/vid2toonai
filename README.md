@@ -58,6 +58,8 @@ pip install torch torchvision lpips opencv-python tqdm pandas scikit-image
 
 ---
 
+##📈 Performans Metrikleri
+
 ### 📊 LPIPS Kalite Değerlendirme
 
 | Görsel         | LPIPS Skoru |
