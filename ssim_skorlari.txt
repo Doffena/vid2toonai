@@ -1,0 +1,4 @@
+    Görsel  SSIM Skoru
+input1.jpg    0.439853
+input2.jpg    0.361831
+  Ortalama    0.400800
