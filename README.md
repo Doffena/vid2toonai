@@ -84,4 +84,13 @@ pip install torch torchvision lpips opencv-python tqdm pandas scikit-image
 > Bu metrik, renk ve doku gibi detaylar yerine yapının, kenarların ve kontrastın korunma düzeyini ölçer.  
 > 0.4008'lik ortalama skor, yoğun stilizasyon uygulanan bu projede yapısal bozulmanın kabul edilebilir düzeyde olduğunu göstermektedir.
 
+---
+## ⚙️ Kurulum
 
+Projeyi çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Projeyi klonlayın:**
+```bash
+git clone https://github.com/Doffena/vid2toonai.git
+cd vid2toonai/AI-Video-Converter
+---
