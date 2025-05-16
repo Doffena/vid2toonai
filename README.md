@@ -80,7 +80,13 @@ Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyaç vardır:
 
 - Python 3.10.11  
 - NVIDIA GPU + CUDA desteği  
-- Aşağıdaki Python kütüphanelerini tek komutla kurabilirsiniz:
+- Gerekli Python kütüphaneleri:
 
 ```bash
-pip install torch torchvision lpips opencv-python tqdm pandas scikit-image
+pip install torch
+pip install torchvision
+pip install lpips
+pip install opencv-python
+pip install tqdm
+pip install pandas
+pip install scikit-image
