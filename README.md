@@ -21,7 +21,8 @@
 
 ---
 
-#📈 Performans Metrikleri
+## 📈 Performans Metrikleri
+
 
 ### 📊 LPIPS Kalite Değerlendirme
 
