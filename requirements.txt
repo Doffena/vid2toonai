@@ -1,0 +1,7 @@
+torch
+torchvision
+lpips
+opencv-python
+tqdm
+pandas
+scikit-image
