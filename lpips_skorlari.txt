@@ -1,0 +1,4 @@
+    Görsel  LPIPS Skoru
+input1.jpg       0.4892
+input2.jpg       0.5880
+  Ortalama       0.5386
