@@ -1,8 +1,29 @@
-# 🎨 Vid2ToonAI – Pixar Tarzı Video/Görsel Stilizasyon Sistemi
+# 🎯 Projenin Amacı
+Bu projenin temel amacı, gerçek dünyadan alınan görüntü veya videoları Pixar tarzı bir animasyon stiline dönüştürebilen özgün ve geliştirilebilir bir yapay zeka sistemi inşa etmektir. Mevcut hazır modellerin sınırlı özelleştirme imkânları nedeniyle, proje kapsamında bir temel difüzyon modelinin (Stable Diffusion) üzerine LoRA (Low-Rank Adaptation) yöntemiyle özel bir tarz transferi eğitimi gerçekleştirilerek, kişiye veya stile özel ince ayar (fine-tune) edilmiş bir model oluşturulacaktır.
 
-Vid2ToonAI, gerçek video veya görselleri kare kare işleyerek Pixar tarzı çizgi film estetiğine dönüştüren bir yapay zeka sistemidir.  
-Proje, Stable Diffusion WebUI altyapısı ve özel modeller ile img2img dönüşümü uygulayarak kullanıcıya yüksek kalitede stilize içerikler sunar.
+##📌 Projenin Açıklaması
+Proje süreci, aşağıdaki temel adımları kapsamaktadır:
 
+##Veri Hazırlığı
+Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi hazırlanmakta ve bu görseller üzerinde altyazılar (prompt/caption) üretilmektedir.
+
+##Altyapı Kurulumu
+Eğitim ortamı olarak kohya_ss GUI tabanlı framework seçilmiş ve gerekli bağımlılıklarla birlikte yerel bir Python sanal ortamı oluşturulmuştur. Eğitim işlemi, kullanıcının bilgisayarında güvenli ve offline olarak gerçekleştirilmektedir.
+
+##Model Eğitimi (LoRA)
+Stable Diffusion mimarisine dayalı olarak, düşük kaynak tüketimli LoRA yöntemi ile mevcut bir temel model üzerinde stil transferi eğitimi yapılmaktadır. Bu yöntem sayesinde modelin tüm ağırlıklarını değiştirmeye gerek kalmadan, yalnızca seçili katmanlara küçük güncellemeler uygulanarak özelleştirme yapılmaktadır.
+
+##Modelin Kullanımı
+Elde edilen yeni model, stable-diffusion-webui arayüzü ile görsel üretim amacıyla kullanılmakta, verilen herhangi bir gerçek görüntü “Pixar tarzı”na benzer bir şekilde stilize edilmektedir.
+
+🧪 Yöntemin Tercih Sebebi
+✅ LoRA, düşük GPU belleğiyle eğitime olanak tanımasıyla kullanıcı dostudur.
+
+✅ Eğitim sürecine müdahale imkanı sunar, bu sayede proje sadece "hazır modelle üretim" değil, "model geliştirme" projesidir.
+
+✅ Eğitimler yerel bilgisayarda yapıldığından veri gizliliği korunur.
+
+✅ Sonuçlar hem akademik hem de yaratıcı projeler için yüksek potansiyel taşır.
 ---
 
 ## 🎬 Pixar Görsel Karşılaştırmaları
