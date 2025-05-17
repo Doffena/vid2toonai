@@ -60,7 +60,7 @@ Proje, Stable Diffusion WebUI altyapısı ve özel modeller ile img2img dönüş
 ## 🚀 Proje İşlevselliği
 
 🎬 **Video ve Görsel Dönüştürme**: Gerçek video ve görselleri karelere ayırarak Pixar tarzı animasyona dönüştürür.  
-🧠 **Yapay Zeka Destekli Stilizasyon**: Stable Diffusion modelleri (ToonYou, DreamShaper, vootou) kullanılarak stil değişimi uygular.  
+🧠 **Yapay Zeka Destekli Stilizasyon**: ToonYou, LoRA ile Pixar modelleri kullanılarak stil değişimi uygular.  
 🎨 **Pixar Tarzı Görselleştirme**: 3D çizgi film estetiğine yakın sonuçlar üretir.  
 📊 **Kalite Ölçümleme**: LPIPS ve SSIM metrikleri ile görsel kalite bilimsel olarak analiz edilir.  
 📁 **Tam Yerel Sistem**: API’siz, tamamen yerel çalışır. İnternete ihtiyaç duymaz.
