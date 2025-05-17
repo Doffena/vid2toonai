@@ -1,30 +1,48 @@
 # 🎯 Projenin Amacı
-Bu projenin temel amacı, gerçek dünyadan alınan görüntü veya videoları Pixar tarzı bir animasyon stiline dönüştürebilen özgün ve geliştirilebilir bir yapay zeka sistemi inşa etmektir. Mevcut hazır modellerin sınırlı özelleştirme imkânları nedeniyle, proje kapsamında bir temel difüzyon modelinin (Stable Diffusion) üzerine LoRA (Low-Rank Adaptation) yöntemiyle özel bir tarz transferi eğitimi gerçekleştirilerek, kişiye veya stile özel ince ayar (fine-tune) edilmiş bir model oluşturulacaktır.
 
-##📌 Projenin Açıklaması
-Proje süreci, aşağıdaki temel adımları kapsamaktadır:
+Bu projenin temel amacı, gerçek dünyadan alınan görüntü veya videoları **Pixar tarzı bir animasyon stiline dönüştürebilen** özgün ve geliştirilebilir bir yapay zeka sistemi inşa etmektir. 
 
-##Veri Hazırlığı
-Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi hazırlanmakta ve bu görseller üzerinde altyazılar (prompt/caption) üretilmektedir.
+Mevcut hazır modellerin sınırlı özelleştirme imkânları nedeniyle, proje kapsamında bir temel difüzyon modelinin (**Stable Diffusion**) üzerine **LoRA (Low-Rank Adaptation)** yöntemiyle özel bir tarz transferi eğitimi gerçekleştirilerek, kişiye veya stile özel ince ayar (**fine-tune**) edilmiş bir model oluşturulacaktır.
 
-##Altyapı Kurulumu
-Eğitim ortamı olarak kohya_ss GUI tabanlı framework seçilmiş ve gerekli bağımlılıklarla birlikte yerel bir Python sanal ortamı oluşturulmuştur. Eğitim işlemi, kullanıcının bilgisayarında güvenli ve offline olarak gerçekleştirilmektedir.
-
-##Model Eğitimi (LoRA)
-Stable Diffusion mimarisine dayalı olarak, düşük kaynak tüketimli LoRA yöntemi ile mevcut bir temel model üzerinde stil transferi eğitimi yapılmaktadır. Bu yöntem sayesinde modelin tüm ağırlıklarını değiştirmeye gerek kalmadan, yalnızca seçili katmanlara küçük güncellemeler uygulanarak özelleştirme yapılmaktadır.
-
-##Modelin Kullanımı
-Elde edilen yeni model, stable-diffusion-webui arayüzü ile görsel üretim amacıyla kullanılmakta, verilen herhangi bir gerçek görüntü “Pixar tarzı”na benzer bir şekilde stilize edilmektedir.
-
-🧪 Yöntemin Tercih Sebebi
-✅ LoRA, düşük GPU belleğiyle eğitime olanak tanımasıyla kullanıcı dostudur.
-
-✅ Eğitim sürecine müdahale imkanı sunar, bu sayede proje sadece "hazır modelle üretim" değil, "model geliştirme" projesidir.
-
-✅ Eğitimler yerel bilgisayarda yapıldığından veri gizliliği korunur.
-
-✅ Sonuçlar hem akademik hem de yaratıcı projeler için yüksek potansiyel taşır.
 ---
+
+## 📌 Proje Açıklaması
+
+Proje süreci aşağıdaki temel adımları kapsamaktadır:
+
+### 🧾 1. Veri Hazırlığı
+
+Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi hazırlanmakta ve bu görseller üzerinde **altyazılar (prompt/caption)** üretilmektedir.
+
+### 🛠️ 2. Altyapı Kurulumu
+
+- Eğitim ortamı olarak **kohya_ss** GUI tabanlı framework seçilmiştir.  
+- Gerekli bağımlılıklarla birlikte yerel bir **Python sanal ortamı** oluşturulmuştur.  
+- Eğitim işlemi, kullanıcının bilgisayarında **güvenli ve offline** olarak gerçekleştirilmektedir.
+
+### 🧠 3. Model Eğitimi (LoRA)
+
+- Eğitimde, **Stable Diffusion** mimarisine dayalı bir temel model üzerine, düşük kaynak tüketimli **LoRA** yöntemi kullanılır.  
+- Bu yöntemle modelin tüm ağırlıkları değiştirilmeden, yalnızca seçili katmanlara küçük güncellemeler uygulanır.  
+- Böylece eğitim süreci hızlı, hafif ve kişiselleştirilebilir hale gelir.
+
+### 🖼️ 4. Modelin Kullanımı
+
+- Elde edilen yeni model, **Stable Diffusion WebUI** arayüzü ile görsel üretim amacıyla kullanılır.  
+- Verilen herhangi bir gerçek görüntü, “**Pixar tarzı**”na benzer şekilde **stilize edilir**.
+
+---
+
+## ✅ Yöntemin Tercih Sebepleri
+
+- ✔️ **LoRA**, düşük GPU belleği ile eğitime olanak tanır, kullanıcı dostudur.  
+- ✔️ Eğitim sürecine müdahale imkanı sunar; bu sayede proje sadece “hazır modelle üretim” değil, **model geliştirme** projesidir.  
+- ✔️ Eğitimler yerel bilgisayarda yapıldığından **veri gizliliği korunur**.  
+- ✔️ Sonuçlar hem **akademik** hem de **yaratıcı projeler** için yüksek potansiyel taşır.
+
+---
+
+> ✨ Bu proje, hem teknik öğrenim hem de yaratıcı üretim süreçlerine katkı sağlayan açık uçlu bir yapay zeka uygulamasıdır.
 
 ## 🎬 Pixar Görsel Karşılaştırmaları
 
