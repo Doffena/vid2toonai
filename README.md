@@ -45,7 +45,7 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 - **Dönüştürülmüş Çıktılar:** `styled_frames/` klasöründe yer almaktadır  
 - **Veri Etiketleme:** Etiketli veri bulunmamaktadır (unsupervised)  
 - **Kullanım Amacı:** Her kareyi tek tek Pixar tarzında dönüştürmek için girdi olarak kullanılır
-- **LoRa kullanımında 210 adet veri gayet idealdir
+- LoRa kullanımında 210 adet veri gayet idealdir
 ---
 
 ## ✅ Yöntemin Tercih Sebepleri
