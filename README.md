@@ -32,6 +32,21 @@ Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi haz
 - Verilen herhangi bir gerçek görüntü, “**Pixar tarzı**”na benzer şekilde **stilize edilir**.
 
 ---
+---
+
+## 📂 Veri Seti Özeti
+
+Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanıcı tarafından belirlenen bir `.mp4` formatındaki video, `ffmpeg` komutu aracılığıyla karelerine ayrılarak özel bir görsel veri seti oluşturulmuştur.
+
+- **Kaynak:** `input_videos/video.mp4`  
+- **Veri Tipi:** Kare görseller (`.png`)  
+- **Toplam Görsel Sayısı:** Yaklaşık 210 kare (30 FPS × 7 saniye)  
+- **Karelerin Konumu:** `input_images/` klasörü  
+- **Dönüştürülmüş Çıktılar:** `styled_frames/` klasöründe yer almaktadır  
+- **Veri Etiketleme:** Etiketli veri bulunmamaktadır (unsupervised)  
+- **Kullanım Amacı:** Her kareyi tek tek Pixar tarzında dönüştürmek için girdi olarak kullanılır
+- **LoRa kullanımında 210 adet veri gayet idealdir
+---
 
 ## ✅ Yöntemin Tercih Sebepleri
 
