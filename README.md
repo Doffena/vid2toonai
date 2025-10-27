@@ -74,10 +74,10 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 
 ---
 
-## 🎥 Örnek Videolar
+##  Örnek Videolar
 
-- [📹 Video 1](example_outputs/result1.mp4)  
-- [📹 Video 2](example_outputs/result2.mp4)
+- [ Video 1](example_outputs/result1.mp4)  
+- [ Video 2](example_outputs/result2.mp4)
 
 
 ---
