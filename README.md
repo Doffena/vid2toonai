@@ -1,4 +1,4 @@
-# 🎯 Projenin Amacı
+#  Projenin Amacı
 
 Bu projenin temel amacı, gerçek dünyadan alınan görüntü veya videoları **Pixar tarzı bir animasyon stiline dönüştürebilen** özgün ve geliştirilebilir bir yapay zeka sistemi inşa etmektir. 
 
@@ -6,7 +6,7 @@ Mevcut hazır modellerin sınırlı özelleştirme imkânları nedeniyle, proje 
 
 ---
 
-## 📌 Proje Açıklaması
+##  Proje Açıklaması
 
 Proje süreci aşağıdaki temel adımları kapsamaktadır:
 
@@ -20,13 +20,13 @@ Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi haz
 - Gerekli bağımlılıklarla birlikte yerel bir **Python sanal ortamı** oluşturulmuştur.  
 - Eğitim işlemi, kullanıcının bilgisayarında **güvenli ve offline** olarak gerçekleştirilmektedir.
 
-### 🧠 3. Model Eğitimi (LoRA)
+###  3. Model Eğitimi (LoRA)
 
 - Eğitimde, **Stable Diffusion** mimarisine dayalı bir temel model üzerine, düşük kaynak tüketimli **LoRA** yöntemi kullanılır.  
 - Bu yöntemle modelin tüm ağırlıkları değiştirilmeden, yalnızca seçili katmanlara küçük güncellemeler uygulanır.  
 - Böylece eğitim süreci hızlı, hafif ve kişiselleştirilebilir hale gelir.
 
-### 🖼️ 4. Modelin Kullanımı
+###  4. Modelin Kullanımı
 
 - Elde edilen yeni model, **Stable Diffusion WebUI** arayüzü ile görsel üretim amacıyla kullanılır.  
 - Verilen herhangi bir gerçek görüntü, “**Pixar tarzı**”na benzer şekilde **stilize edilir**.
@@ -34,7 +34,7 @@ Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi haz
 ---
 ---
 
-## 📂 Veri Seti Özeti
+##  Veri Seti Özeti
 
 Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanıcı tarafından belirlenen bir `.mp4` formatındaki video, `ffmpeg` komutu aracılığıyla karelerine ayrılarak özel bir görsel veri seti oluşturulmuştur.
 
@@ -48,16 +48,16 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 - LoRa kullanımında 210 adet veri gayet idealdir
 ---
 
-## ✅ Yöntemin Tercih Sebepleri
+##  Yöntemin Tercih Sebepleri
 
-- ✔️ **LoRA**, düşük GPU belleği ile eğitime olanak tanır, kullanıcı dostudur.  
-- ✔️ Eğitim sürecine müdahale imkanı sunar; bu sayede proje sadece “hazır modelle üretim” değil, **model geliştirme** projesidir.  
-- ✔️ Eğitimler yerel bilgisayarda yapıldığından **veri gizliliği korunur**.  
-- ✔️ Sonuçlar hem **akademik** hem de **yaratıcı projeler** için yüksek potansiyel taşır.
+- **LoRA**, düşük GPU belleği ile eğitime olanak tanır, kullanıcı dostudur.  
+- Eğitim sürecine müdahale imkanı sunar; bu sayede proje sadece “hazır modelle üretim” değil, **model geliştirme** projesidir.  
+- Eğitimler yerel bilgisayarda yapıldığından **veri gizliliği korunur**.  
+- Sonuçlar hem **akademik** hem de **yaratıcı projeler** için yüksek potansiyel taşır.
 
 ---
 
-> ✨ Bu proje, hem teknik öğrenim hem de yaratıcı üretim süreçlerine katkı sağlayan açık uçlu bir yapay zeka uygulamasıdır.
+>  Bu proje, hem teknik öğrenim hem de yaratıcı üretim süreçlerine katkı sağlayan açık uçlu bir yapay zeka uygulamasıdır.
 
 ## 🎬 Pixar Görsel Karşılaştırmaları
 
@@ -82,10 +82,10 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 
 ---
 
-## 📈 Performans Metrikleri
+##  Performans Metrikleri
 
 
-### 📊 LPIPS Kalite Değerlendirme
+###  LPIPS Kalite Değerlendirme
 
 | Görsel         | LPIPS Skoru |
 |----------------|--------------|
@@ -97,7 +97,7 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 > Stilize edilen görsellerin orijinallerine algısal benzerliği 0–1 arası bir skala ile ölçülür.  
 > Bu projede elde edilen ortalama LPIPS skoru **0.5386** olup, bu değer Pixar tarzı yüksek stilizasyon içeren dönüşümlerde kabul edilebilir düzeydedir.
 
-### 📊 SSIM Kalite Değerlendirme (Yapısal Benzerlik)
+###  SSIM Kalite Değerlendirme (Yapısal Benzerlik)
 
 | Görsel         | SSIM Skoru |
 |----------------|-------------|
@@ -111,24 +111,24 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 
 ---
 
-## 🚀 Proje İşlevselliği
+## Proje İşlevselliği
 
-🎬 **Video ve Görsel Dönüştürme**: Gerçek video ve görselleri karelere ayırarak Pixar tarzı animasyona dönüştürür.  
-🧠 **Yapay Zeka Destekli Stilizasyon**: ToonYou, LoRA ile Pixar modelleri kullanılarak stil değişimi uygular.  
-🎨 **Pixar Tarzı Görselleştirme**: 3D çizgi film estetiğine yakın sonuçlar üretir.  
-📊 **Kalite Ölçümleme**: LPIPS ve SSIM metrikleri ile görsel kalite bilimsel olarak analiz edilir.  
-📁 **Tam Yerel Sistem**: API’siz, tamamen yerel çalışır. İnternete ihtiyaç duymaz.
+**Video ve Görsel Dönüştürme**: Gerçek video ve görselleri karelere ayırarak Pixar tarzı animasyona dönüştürür.  
+**Yapay Zeka Destekli Stilizasyon**: ToonYou, LoRA ile Pixar modelleri kullanılarak stil değişimi uygular.  
+**Pixar Tarzı Görselleştirme**: 3D çizgi film estetiğine yakın sonuçlar üretir.  
+**Kalite Ölçümleme**: LPIPS ve SSIM metrikleri ile görsel kalite bilimsel olarak analiz edilir.  
+**Tam Yerel Sistem**: API’siz, tamamen yerel çalışır. İnternete ihtiyaç duymaz.
 
 ---
 
-## 👨‍💻 Geliştirici
+##  Geliştirici
 
 Bu proje **Burak AVCI** tarafından geliştirilmiştir.  
-📧 burakavci0206@gmail.com
+ burakavci0206@gmail.com
 
 ---
 
-## 🛠️ Gereksinimler
+##  Gereksinimler
 
 Bu projeyi çalıştırmak için aşağıdaki yazılımlara ihtiyaç vardır:
 
