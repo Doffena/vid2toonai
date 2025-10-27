@@ -10,23 +10,23 @@ Mevcut hazır modellerin sınırlı özelleştirme imkânları nedeniyle, proje 
 
 Proje süreci aşağıdaki temel adımları kapsamaktadır:
 
-### 🧾 1. Veri Hazırlığı
+### 1. Veri Hazırlığı
 
 Pixar tarzına uygun görsellerden oluşan küçük boyutlu bir veri kümesi hazırlanmakta ve bu görseller üzerinde **altyazılar (prompt/caption)** üretilmektedir.
 
-### 🛠️ 2. Altyapı Kurulumu
+### 2. Altyapı Kurulumu
 
 - Eğitim ortamı olarak **kohya_ss** GUI tabanlı framework seçilmiştir.  
 - Gerekli bağımlılıklarla birlikte yerel bir **Python sanal ortamı** oluşturulmuştur.  
 - Eğitim işlemi, kullanıcının bilgisayarında **güvenli ve offline** olarak gerçekleştirilmektedir.
 
-###  3. Model Eğitimi (LoRA)
+### 3. Model Eğitimi (LoRA)
 
 - Eğitimde, **Stable Diffusion** mimarisine dayalı bir temel model üzerine, düşük kaynak tüketimli **LoRA** yöntemi kullanılır.  
 - Bu yöntemle modelin tüm ağırlıkları değiştirilmeden, yalnızca seçili katmanlara küçük güncellemeler uygulanır.  
 - Böylece eğitim süreci hızlı, hafif ve kişiselleştirilebilir hale gelir.
 
-###  4. Modelin Kullanımı
+### 4. Modelin Kullanımı
 
 - Elde edilen yeni model, **Stable Diffusion WebUI** arayüzü ile görsel üretim amacıyla kullanılır.  
 - Verilen herhangi bir gerçek görüntü, “**Pixar tarzı**”na benzer şekilde **stilize edilir**.
