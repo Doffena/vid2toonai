@@ -59,7 +59,7 @@ Bu projede sabit bir dış veri seti kullanılmamıştır. Bunun yerine kullanı
 
 >  Bu proje, hem teknik öğrenim hem de yaratıcı üretim süreçlerine katkı sağlayan açık uçlu bir yapay zeka uygulamasıdır.
 
-## 🎬 Pixar Görsel Karşılaştırmaları
+## Pixar Görsel Karşılaştırmaları
 
 <table>
   <tr>
